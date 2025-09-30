@@ -2,7 +2,7 @@
 
 ![CADMU logo](docs/assets/cadmu.png)
 
-[![CI](https://github.com/jegx/cadmu/actions/workflows/ci.yml/badge.svg)](https://github.com/jegx/cadmu/actions/workflows/ci.yml)
+[![CI](https://github.com/1914Jegx/cadmu/actions/workflows/ci.yml/badge.svg)](https://github.com/1914Jegx/cadmu/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Docs](https://img.shields.io/badge/docs-website-blue.svg)](https://1914jegx.github.io/cadmu/)
 [![Discussions](https://img.shields.io/badge/discussions-join-blueviolet.svg)](https://github.com/1914Jegx/cadmu/discussions)
