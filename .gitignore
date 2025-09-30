@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environments
+.venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Reports
+cadmu-diagnostic-*.txt
+cadmu-diagnostic-*.tar.gz
+.coverage

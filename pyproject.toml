@@ -1,0 +1,73 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cadmu"
+version = "0.1.0"
+description = "CADMU: Clean, Audit, Diagnose, Maintain, and Update toolkit for Linux systems"
+readme = "README.md"
+authors = [
+  {name = "jegx"},
+]
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = []
+keywords = ["linux", "diagnostics", "maintenance", "archlinux", "cli"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Intended Audience :: System Administrators",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: POSIX :: Linux",
+  "Topic :: System :: Monitoring",
+  "Topic :: System :: Systems Administration",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+  "pytest-cov>=4.1",
+  "coverage[toml]>=7.4",
+  "ruff>=0.6",
+  "mypy>=1.10",
+]
+
+[project.urls]
+Homepage = "https://github.com/jegx/cadmu"
+Documentation = "https://github.com/jegx/cadmu/tree/main/docs"
+Source = "https://github.com/jegx/cadmu"
+Issues = "https://github.com/jegx/cadmu/issues"
+
+[project.scripts]
+cadmu = "cadmu.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.pytest.ini_options]
+addopts = "-ra --showlocals --strict-markers --strict-config --cov=cadmu --cov-report=term-missing"
+testpaths = ["tests"]
+
+[tool.coverage.run]
+branch = true
+source = ["cadmu"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.mypy]
+python_version = "3.10"
+show_error_codes = true
+strict = false
+ignore_missing_imports = true
