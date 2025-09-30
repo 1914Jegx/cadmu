@@ -1,0 +1,35 @@
+---
+---
+
+@import "jekyll-theme-cayman";
+
+:root {
+  --cadmu-primary: #1f8ceb;
+  --cadmu-accent: #0f172a;
+  --cadmu-muted: #f1f5f9;
+}
+
+.page-header {
+  background-image: linear-gradient(120deg, var(--cadmu-primary), #38bdf8 70%);
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3 {
+  color: var(--cadmu-accent);
+}
+
+.main-content a {
+  color: var(--cadmu-primary);
+}
+
+.main-content code {
+  background-color: var(--cadmu-muted);
+  color: var(--cadmu-accent);
+  border-radius: 4px;
+  padding: 0.15rem 0.3rem;
+}
+
+.footer {
+  background: var(--cadmu-accent);
+}

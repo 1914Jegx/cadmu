@@ -1,0 +1,11 @@
+title: "CADMU Documentation"
+description: "Clean, Audit, Diagnose, Maintain, Update toolkit documentation"
+logo: assets/cadmu.png
+show_downloads: false
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-remote-theme
+remote_theme: pages-themes/cayman@v0.2.0
+
+display_footer: false
+url: https://1914jegx.github.io/cadmu
