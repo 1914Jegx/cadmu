@@ -18,9 +18,14 @@ Steps executed on Ubuntu runners:
 Failures in any step block merges. Extend this workflow when adding new tools
 (e.g., coverage upload, documentation build).
 
+## Dependency Management
+
+- Dependabot configuration lives at [.github/dependabot.yml](../.github/dependabot.yml).
+- Weekly updates are opened for both Python (`pip`) and GitHub Actions workflows.
+- PRs use the `deps` commit prefix; merge when CI passes and changelog impact is minimal.
+
 ## Future Automation Ideas
 
-- **Dependabot**: Automatically open PRs for dependency updates (Python + Actions).
 - **Codecov/Coveralls**: Upload coverage reports to track trends.
 - **Release Drafter**: Generate release notes from merged PRs.
 - **Security Scans**: Add workflows using `pip-audit` or GitHub’s CodeQL.
