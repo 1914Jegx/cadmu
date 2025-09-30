@@ -29,6 +29,7 @@ Failures in any step block merges. Extend this workflow when adding new tools
 - GitHub Pages serves the documentation from the `/docs` folder on the `main` branch.
 - Site URL: <https://1914jegx.github.io/cadmu/>
 - `docs/index.md` provides the landing page with links to all markdown guides.
+- Theme uses the Cayman template with overrides in `docs/assets/css/style.scss`.
 - Update docs and push to `main`; Pages rebuilds automatically (may take ~1 minute).
 
 ## Future Automation Ideas
