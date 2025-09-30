@@ -31,6 +31,7 @@ Failures in any step block merges. Extend this workflow when adding new tools
 - `docs/index.md` provides the landing page with links to all markdown guides.
 - Theme uses the Cayman template with overrides in `docs/assets/css/style.scss`.
 - Update docs and push to `main`; Pages rebuilds automatically (may take ~1 minute).
+- Social preview assets (logo + banner) are stored under `docs/assets/`; update the repository preview via Settings when they change.
 
 ## Future Automation Ideas
 

@@ -48,6 +48,12 @@ pip install -e .[dev]
 | [Roadmap](docs/ROADMAP.md) | Upcoming milestones |
 | [Docs Site](https://1914jegx.github.io/cadmu/) | Rendered GitHub Pages documentation |
 
+## Branding & Social
+
+- Repository logo: `docs/assets/cadmu.png`
+- Social banner (1280×640): `docs/assets/social-banner.png`
+- Reminder: upload the banner via **Settings → General → Social preview** (see [#19](https://github.com/1914Jegx/cadmu/issues/19))
+
 ## Project Goals
 
 1. **Portable baseline** – Everything should work on any modern Linux (systemd or
