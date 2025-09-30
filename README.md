@@ -4,6 +4,9 @@
 
 [![CI](https://github.com/jegx/cadmu/actions/workflows/ci.yml/badge.svg)](https://github.com/jegx/cadmu/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Docs](https://img.shields.io/badge/docs-website-blue.svg)](https://1914jegx.github.io/cadmu/)
+[![Discussions](https://img.shields.io/badge/discussions-join-blueviolet.svg)](https://github.com/1914Jegx/cadmu/discussions)
+[![Roadmap](https://img.shields.io/badge/roadmap-project%205-brightgreen.svg)](https://github.com/users/1914Jegx/projects/5)
 
 **CADMU** stands for **Clean, Audit, Diagnose, Maintain, Update** – a modular system
 health toolkit designed for Linux desktops and servers with first-class Arch Linux
@@ -126,7 +129,7 @@ full workflow, coding standards, and testing requirements. The TL;DR:
 
 ## Roadmap & Planning
 
-- Public backlog board: [CADMU Roadmap](https://github.com/users/1914Jegx/projects/3)
+- Public backlog board: [CADMU Roadmap](https://github.com/users/1914Jegx/projects/5)
 - Seeded issues: see [open issues](https://github.com/1914Jegx/cadmu/issues)
 - High-level plan lives in [docs/ROADMAP.md](docs/ROADMAP.md)
 
