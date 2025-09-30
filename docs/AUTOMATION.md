@@ -41,7 +41,7 @@ Failures in any step block merges. Extend this workflow when adding new tools
 ## Coverage Reporting
 
 - The `Coverage` workflow ([.github/workflows/coverage.yml](../.github/workflows/coverage.yml)) runs pytest with coverage and uploads the report to Codecov.
-- Configure the `CODECOV_TOKEN` repository secret before relying on the status check.
+- Configure the `CODECOV_TOKEN` repository secret; the workflow passes it via the action input.
 - Coverage thresholds are defined in `codecov.yml`.
 
 ## Future Automation Ideas
