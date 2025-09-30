@@ -115,6 +115,12 @@ full workflow, coding standards, and testing requirements. The TL;DR:
 - Update/extend documentation when changing user-facing behaviour.
 - Add unit tests or CLI exercises for new features.
 
+## Roadmap & Planning
+
+- Public backlog board: [CADMU Roadmap](https://github.com/users/1914Jegx/projects/3)
+- Seeded issues: see [open issues](https://github.com/1914Jegx/cadmu/issues)
+- High-level plan lives in [docs/ROADMAP.md](docs/ROADMAP.md)
+
 ## License
 
 MIT License – see `LICENSE` for details.
