@@ -25,11 +25,18 @@ jobs:
 
       - name: Run tests with coverage
         run: |
-          pytest --cov=cadmu --cov-report=xml
+          pytest --cov=cadmu --cov-report=xml --junitxml=junit.xml -o junit_family=legacy
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v5
         with:
           files: ./coverage.xml
           fail_ci_if_error: false
+          token: ${{ secrets.CODECOV_TOKEN }}
+
+      - name: Upload test results to Codecov
+        if: ${{ !cancelled() }}
+        uses: codecov/test-results-action@v1
+        with:
+          files: ./junit.xml
           token: ${{ secrets.CODECOV_TOKEN }}
