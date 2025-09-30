@@ -33,6 +33,17 @@ Failures in any step block merges. Extend this workflow when adding new tools
 - Update docs and push to `main`; Pages rebuilds automatically (may take ~1 minute).
 - Social preview assets (logo + banner) are stored under `docs/assets/`; update the repository preview via Settings when they change.
 
+## Release Automation
+
+- Release notes are drafted automatically by Release Drafter using [.github/release-drafter.yml](../.github/release-drafter.yml) and the workflow in [.github/workflows/release-drafter.yml](../.github/workflows/release-drafter.yml).
+- Once a milestone is ready, review the draft release, update the changelog if needed, and publish the release/tag.
+
+## Coverage Reporting
+
+- The `Coverage` workflow ([.github/workflows/coverage.yml](../.github/workflows/coverage.yml)) runs pytest with coverage and uploads the report to Codecov.
+- Configure the `CODECOV_TOKEN` repository secret before relying on the status check.
+- Coverage thresholds are defined in `codecov.yml`.
+
 ## Future Automation Ideas
 
 - **Codecov/Coveralls**: Upload coverage reports to track trends.
