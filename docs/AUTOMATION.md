@@ -24,6 +24,13 @@ Failures in any step block merges. Extend this workflow when adding new tools
 - Weekly updates are opened for both Python (`pip`) and GitHub Actions workflows.
 - PRs use the `deps` commit prefix; merge when CI passes and changelog impact is minimal.
 
+## Documentation Publishing
+
+- GitHub Pages serves the documentation from the `/docs` folder on the `main` branch.
+- Site URL: <https://1914jegx.github.io/cadmu/>
+- `docs/index.md` provides the landing page with links to all markdown guides.
+- Update docs and push to `main`; Pages rebuilds automatically (may take ~1 minute).
+
 ## Future Automation Ideas
 
 - **Codecov/Coveralls**: Upload coverage reports to track trends.

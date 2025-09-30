@@ -1,5 +1,7 @@
 # CADMU
 
+![CADMU logo](docs/assets/cadmu.png)
+
 [![CI](https://github.com/jegx/cadmu/actions/workflows/ci.yml/badge.svg)](https://github.com/jegx/cadmu/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -44,6 +46,7 @@ pip install -e .[dev]
 | [Automation](docs/AUTOMATION.md) | CI/local automation details |
 | [Issue Catalog](docs/ISSUE_CATALOG.md) | Backlog seeding ideas |
 | [Roadmap](docs/ROADMAP.md) | Upcoming milestones |
+| [Docs Site](https://1914jegx.github.io/cadmu/) | Rendered GitHub Pages documentation |
 
 ## Project Goals
 
